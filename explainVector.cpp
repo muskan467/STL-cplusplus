@@ -13,5 +13,10 @@ int main()
   vec.push_back({1, 3});
   vec.emplace_back(4, 5); // already assumes to be a pair
   
+  vector<int> v1(5, 100); // {100, 100, 100, 100, 100}
+  
+  vector<int> v1(5); // 5 times 0 or garbage value depending upon compiler
+  
+  
   return 0;
 }
