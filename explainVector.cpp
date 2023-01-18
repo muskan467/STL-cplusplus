@@ -16,6 +16,7 @@ int main()
   vector<int> v1(5, 100); // {100, 100, 100, 100, 100}
   
   vector<int> v1(5); // 5 times 0 or garbage value depending upon compiler
+  vector<int> v2(v1); // copy v1 -> v2
   
   
   return 0;
