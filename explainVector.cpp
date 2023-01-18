@@ -18,6 +18,14 @@ int main()
   vector<int> v1(5); // 5 times 0 or garbage value depending upon compiler
   vector<int> v2(v1); // copy v1 -> v2
   
+  // v = {10,20,30,40,50}
+  vector<int>::iterator it = v.begin(); // points to 0 index memory location
+  
+  it++;
+  cout << *(it) << " "; // 20
+  
+  it = it + 2; 
+  cout << *(it) << " "; // 40  
   
   return 0;
 }
