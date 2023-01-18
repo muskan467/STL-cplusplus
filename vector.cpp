@@ -27,5 +27,17 @@ int main()
   it = it + 2; 
   cout << *(it) << " "; // 40  
   
+  // iterating vector
+  
+  for(vector<int>::iteration it = v.begin(); it!=v.end();it++)
+    cout << *it;
+  
+  for(auto it = v.begin(); it!=v.end();it++)
+    cout << *it;
+  
+  for(auto it: v)
+    cout << it;
+  
+  
   return 0;
 }
