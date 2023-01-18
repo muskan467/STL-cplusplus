@@ -1,4 +1,4 @@
-# STL- C++
+# STL - C++
 
 - Pair
 - Vector
